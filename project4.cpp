@@ -100,7 +100,7 @@ class products{
         
 };
 
-class mobile:public products{                    //Inheritance...
+class mobile:public products{                    //Inheritance...   //mobile is a product...
 	public:
 	      mobile():products(){}
 		  mobile(string a,string b,float c):products(a,b,c){
@@ -232,7 +232,7 @@ class shop{
 //			}
 	do{
 //		this();
-	cout<<"Enter email:\n";
+	cout<<"Enter username:\n";
 	cin>>email;
 	cout<<"Enter password:\n";
 	cin>>password;
